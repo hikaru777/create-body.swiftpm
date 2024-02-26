@@ -12,7 +12,8 @@ import SwiftUI
 struct InformationTransferabilitySimulationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: .init())
+            DescriptionView(viewModel: .init())
+//            ContentView(viewModel: .init())
 //            ElementView()
 //            PenKitView()
         }

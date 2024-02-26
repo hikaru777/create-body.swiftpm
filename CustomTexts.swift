@@ -63,6 +63,7 @@ struct BlockTextAnimation: View {
     var body: some View {
         ZStack {
             Text(String(characters))
+                .multilineTextAlignment(.center)
                 .font(font)
                 .opacity(textOpacity)
                 .background(GeometryReader{ geometry -> Text in
